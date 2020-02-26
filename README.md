@@ -5,4 +5,4 @@ Group members:
 
 Juheng Mo       henrymo@csu.fullerton.edu
 
-Charles Babbage charlesbab@csu.fullerton.edu
+Tommy Huynh     Tommyh@csu.fullerton.edu
