@@ -57,7 +57,7 @@ bool is_nonincreasing(const sequence& A) {
   // statement, and then delete these comments.
   sequence temp = A;
   for(size_t i = 0; i < temp.size() - 2; i++){
-    if(temp[i] > temp[i+1]){
+    if(temp[i] < temp[i+1]){
       return false;
     }
   }
