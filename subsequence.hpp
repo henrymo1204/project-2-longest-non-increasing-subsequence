@@ -134,6 +134,7 @@ sequence longest_nonincreasing_powerset(const sequence& A) {
     // in best
     if(best.empty() || (is_nonincreasing(candidate) && candidate.size() > best.size())){
       best = candidate;
+    }
   }
   return best;
 }
