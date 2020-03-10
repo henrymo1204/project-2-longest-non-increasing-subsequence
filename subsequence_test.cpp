@@ -71,5 +71,4 @@ int main() {
 		   });
 
   return rubric.run();
-}	
 }
