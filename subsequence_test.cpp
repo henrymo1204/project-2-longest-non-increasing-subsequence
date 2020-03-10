@@ -12,8 +12,7 @@
 
 #include "subsequence.hpp"
 
-int main()
-{
+int main(){
 
   Rubric rubric;
 
