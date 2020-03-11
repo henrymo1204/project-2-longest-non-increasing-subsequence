@@ -101,7 +101,7 @@ sequence longest_nonincreasing_end_to_beginning(const sequence& A) {
       // TODO: write the statements to add A[i] to the
       // sequence R by storing it into R[j], decrement
       // index and increment j
-      R[j] = A[i]
+      R[j] = A[i];
       index--;
       j++
     }
