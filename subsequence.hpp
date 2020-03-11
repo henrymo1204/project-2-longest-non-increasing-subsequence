@@ -103,7 +103,7 @@ sequence longest_nonincreasing_end_to_beginning(const sequence& A) {
       // index and increment j
       R[j] = A[i];
       index--;
-      j++
+      j++;
     }
   }
   
