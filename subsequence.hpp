@@ -78,7 +78,9 @@ sequence longest_nonincreasing_end_to_beginning(const sequence& A) {
     for (size_t j = i+1; j < n ; j++) {
       // TODO: write the statements that compute the value of
       // H[i] based on conditions that involve A[i], A[j] and H[j]
-      
+      if(A[i] >= A[j]){
+        H[i] = A[i];
+      }
     }
   }
   
